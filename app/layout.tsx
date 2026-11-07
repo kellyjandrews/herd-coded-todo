@@ -2,8 +2,8 @@ import type { ReactNode } from "react";
 import "./globals.css";
 
 export const metadata = {
-  title: "New app",
-  description: "A new app built with the factory",
+  title: "Simple ToDo List",
+  description: "A calmer way to keep track of your tasks.",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {
